@@ -1,0 +1,133 @@
+body {
+	
+	   width:1400px;
+	   margin:0 auto;
+     
+	  font-family: fonttext, serif;
+}
+
+
+@font-face {
+	font-family: fonttext;
+	src:url("../fonts/CormorantGaramond-Regular.ttf");
+}
+
+.header {
+	     background-color:#ff9999;
+	    
+}
+
+.logo{
+	   float: left;
+	   height: 90px;  
+}
+
+.navbar{ 
+
+	     float: right;	    
+}
+
+.navbar, .anav{
+	        text-decoration: none;
+	        color:#2a1c0e;
+	        line-height: 30px;
+	        word-spacing: 10px;
+	        font-size: 20px;
+	        font-weight: bold;
+	        text-align: center;
+	        padding-right: 20px;
+	        padding-top: 24px;	
+	        padding: 30px 20px;       
+
+}
+
+.anav:hover {
+	          background-color:#f9e6cc;
+	          
+
+	         
+}
+
+
+.clear{
+	     clear: both;
+}
+
+
+.about {
+	      background-image: url('../img/backwood.jpg');
+	      background-repeat: no-repeat;
+	      background-size:cover;
+	      background-attachment: fixed;
+	      height: 800px;
+	      background-position: center;
+	      display: flex;
+
+}
+
+
+.aboutus {
+         
+           width: 600px;
+           height: 500px;
+           margin:120px 30px;
+           text-align:justify;
+           line-height: 40px;
+	       font-size: 20px;
+	       color: #2a1c0e;
+	       font-weight: bold;
+	       background-color:#f9e6cc; 
+	       padding: 20px 20px;
+	       opacity: .84;
+	       border-radius: 10px;
+	       box-shadow: 10px 10px 10px  #ff9999;
+	}
+
+h2 {
+	    background-color:#ff9999;
+	    padding: 10px 10px;
+	    color: #2a1c0e;
+	    font-size: 20px;
+	    font-weight: bold;
+	     border-radius: 10px;
+}
+
+.bakerimage{
+	         width: 650px;
+             height: 540px;
+             margin-top: 120px;
+             border-radius: 10px;
+             
+}
+
+.bakerimage:hover{
+	             filter:grayscale(100%);
+}
+
+
+
+.footer {
+	      text-align: center;
+	      background-color:#ff9999;
+	      color:#2a1c0e;
+	      padding-top: 25px;
+	      padding-bottom: 15px;
+}
+
+.afollowus {
+	        text-decoration: none;
+            word-spacing: 15px;
+
+
+           
+} 
+
+
+#followp{
+	       font-size: 20px;
+	       font-weight: bold;
+	         margin:0;
+
+
+
+}

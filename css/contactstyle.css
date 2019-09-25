@@ -1,0 +1,156 @@
+body {
+	
+	   width:1400px;
+	   margin:0 auto;
+     
+	  font-family: fonttext, serif;
+}
+
+
+@font-face {
+	font-family: fonttext;
+	src:url("../fonts/CormorantGaramond-Regular.ttf");
+}
+
+.header {
+	     background-color:#ff9999;
+	    
+}
+
+.logo{
+	   float: left;
+	   height: 90px;  
+}
+
+.navbar{ 
+
+	     float: right;	    
+}
+
+.navbar, .anav{
+	        text-decoration: none;
+	        color:#2a1c0e;
+	        line-height: 30px;
+	        word-spacing: 10px;
+	        font-size: 20px;
+	        font-weight: bold;
+	        text-align: center;
+	        padding-right: 20px;
+	        padding-top: 24px;	
+	        padding: 30px 20px;       
+
+}
+
+.anav:hover {
+	          background-color:#f9e6cc;
+	          
+
+	         
+}
+
+
+.clear{
+	     clear: both;
+}
+
+section {
+
+	background-image: url(../img/backgroundcontact.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	height: 880px;
+
+	background-position: center;
+}
+
+.cont { 
+	        
+             border-radius: 8px;
+             background-color: #ff9999;
+             opacity: .89;
+             font-weight: bold;
+             font-size: 20px; 
+             line-height: 30px;
+             position: absolute;
+             top: 200px;
+             left: 80px;
+             padding: 60px 40px;
+             width: 550px;
+             height: 500px;
+            
+}
+
+
+
+h2 {
+	  
+	  font-weight: bold;
+	  animation-name: example;
+      animation: example 2s infinite;
+	  transition: width 4s;
+}
+
+@keyframes example {
+			          from {color:#2a1c0e;}
+			          to {color: #f9e6cc;}
+
+}
+#text, #country,#subject {
+                           width: 100%;
+                           padding: 15px;
+                           border: 1px solid #ccc;
+                           border-radius: 5px;
+                           box-sizing: border-box;
+                           margin-top: 6px;
+                           font-weight: bold;
+                           color:#2a1c0e;
+                           background-color:#f9e6cc; 
+                          
+}
+
+#subject {
+	       height:110px;
+}
+
+#submit {
+          background-color: #f9e6cc;
+          color:#2a1c0e;
+          font-size: 20px;
+          font-weight: bold;
+          padding: 12px 20px;
+          border-radius: 12px;
+  
+}
+
+#submit:hover {
+                 background-color:#ff9999; 
+}
+
+
+
+.footer {
+	      text-align: center;
+	      background-color:#ff9999;
+	      color:#2a1c0e;
+	      padding-top: 25px;
+	      padding-bottom: 15px;
+}
+
+.afollowus {
+	        text-decoration: none;
+            word-spacing: 15px;
+
+
+           
+} 
+
+
+#followp{
+	       font-size: 20px;
+	       font-weight: bold;
+	         margin:0;
+
+
+
+}
